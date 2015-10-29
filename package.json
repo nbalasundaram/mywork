@@ -1,0 +1,45 @@
+{
+  "name": "Learn",
+  "description": "My first project in JavaScript framework",
+  "version": "1.0.1",
+  "homepage": "Learn Sauce",
+  "author": {
+    "name": "Nirmal Balasundaram",
+    "email": "nirmal.balasundaram@gmail.com",
+    "url": "nirmal.url"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Learn"
+  },
+  "bugs": {
+    "url": "JIRA"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "Learn Sauce/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Learn",
+  "engines": {
+    "node": "0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "colors": "latest",
+    "grunt": "~0.4.5",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-env": "latest",
+    "grunt-simple-mocha": "latest",
+    "lodash": "^3.10.1",
+    "wd": "latest"
+  },
+  "keywords": []
+}
